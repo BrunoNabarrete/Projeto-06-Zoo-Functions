@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testes da função getOpeningHours Testando recebendo dois argumentos Friday e 09:00-ZM: The abbreviation must be 'AM' or 'PM' 1`] = `"The abbreviation must be 'AM' or 'PM'"`;
+
+exports[`Testes da função getOpeningHours Testando recebendo dois argumentos Monday e 13:00-AM: The hour must be between 0 and 12 1`] = `"The hour must be between 0 and 12"`;
+
+exports[`Testes da função getOpeningHours Testando recebendo dois argumentos Saturday e C9:00-AM: The hour should represent a number 1`] = `"The hour should represent a number"`;
+
+exports[`Testes da função getOpeningHours Testando recebendo dois argumentos Sunday e 09:c0-AM: The minutes should represent a number 1`] = `"The minutes should represent a number"`;
+
+exports[`Testes da função getOpeningHours Testando recebendo dois argumentos Thu e 09:00-AM: The day must be valid. Example: Monday 1`] = `"The day must be valid. Example: Monday"`;
+
+exports[`Testes da função getOpeningHours Testando recebendo dois argumentos Tuesday e 09:60-AM: The minutes must be between 0 and 59 1`] = `"The minutes must be between 0 and 59"`;
